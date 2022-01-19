@@ -1,6 +1,6 @@
 def validate_number(number):
     if number.isdigit():
-        return int(number)
+        return True
     else:
         return False
     
